@@ -127,6 +127,7 @@ body {
   color: #fff;
   font-family: "Pretendard";
   box-sizing: border-box;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .header {
