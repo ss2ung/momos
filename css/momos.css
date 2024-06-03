@@ -560,16 +560,39 @@ body {
 .con3 .warp .offline-img {
   margin-top: 144px;
   width: 1030px;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
 }
 
-.con3 .warp .offline-img figure {
-  width: 663px;
-  height: 439px;
+
+.con3 .warp .offline-img .swiper-slide .offline-txt2 {
+  width: 94%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  backdrop-filter: blur(5px);
+  opacity: 0;
 }
-.con3 .warp .offline-img figure:last-child {
-  width: 340px;
+
+.con3 .warp .offline-img .offline-txt2 h5{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.con3 .warp .offline-img .offline-txt2 p{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.con3 .warp .offline-img .swiper-slide:hover .offline-txt2 {
+  opacity: 1;
+}
+
+
+.con3 .warp .offline-img figure {
+  width: 100%;
   height: 439px;
 }
 
